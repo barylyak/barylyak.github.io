@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("images/2222222.jpg") no-repeat;
+    background-size: 100%;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    /*display: inline-block;*/
+}
+.resume-offer{
+    display: flex;
+}
+.header{margin-top: 20px;
+
+}
+
+.img{
+    width: 150px;
+    height: 450px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.summary {
+    max-width: 40%;
+    margin-left:  60px;
+}
+li,p{
+    font-family: 'Baloo Thambi 2', cursive;
+}
+h1,h2,h3,h4,h5,h6{
+font-size: 27px;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.education{
+    max-width: 350px;
+    margin-left: 110px;
+   max-height: 200px;
+    transition: 0.3s;
+}
+.sumback{
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 0 30px 30px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.expback{
+    margin-top: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 0 10px 10px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+img:hover{
+    width: 180px;
+    height: 530px;
+
+}
+
+.sumback:hover{
+       background-color: beige;
+
+   }
+
+.expback:hover{
+    background-color: beige;
+
+}
+.fab{
+    font-size: 40px;
+}
